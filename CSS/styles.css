@@ -1,0 +1,260 @@
+
+body{
+	background-color: #fff;	
+	margin: 0;
+}
+#wrapper{
+	width: 1200px;
+	height: 1848px;
+	background-image: url(images/bg.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin: 0 auto;
+	padding-top: 11px;
+	
+}
+header{	
+	width: 1020px;
+	height: 124px;
+	margin: 0 auto;
+}
+#h_top{
+	width: 1020px;
+	height: 59px;
+	margin: 0 auto;
+	padding: 0;	
+}
+#h_top_l{
+	width: 315px;
+	height: 59px;
+	margin: 0 auto;
+	vertical-align: top;
+	float: left;	
+}
+#logo{
+	width: 110px;
+	height: 59px;
+	margin-left: 22px;
+	margin-top: 0;
+	float: left;
+}
+#h_top_l p{
+	width: 170px;
+	float: right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;	
+	line-height: 19px;
+	text-align: right;
+	margin: 16px 0 24px 0;	
+	border-left: 1px solid #755b5b;
+}
+#soc{
+	width: 265px;
+	height: 100%;
+	margin: 0;	
+	float: right;
+}
+.soc_ic{
+	width: 232px;
+	height: 16px;
+	margin: 15px 35px 28px 0;
+	padding: 0px;
+	display: table;
+	text-align: center;	
+}
+
+.soc_ic li{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 16px;
+	list-style-type: none;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+}
+.soc_ic a{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 16px;
+	display: block;
+	background: url(images/ic_03.png);
+	float: right;
+}
+.ic_2 a{
+	background-position: -50px 0;
+}
+.ic_3 a{
+	background-position: -100px 0;
+}
+.ic_4 a{
+	background-position: -150px 0;
+}
+.ic_5 a{
+	background-position: -198.5px 0;
+}
+
+
+
+#h_bot{
+	width: 1020px;
+	height: 60px;
+	margin: 4px 0 19px;
+	background-color: #fff;
+	box-shadow: 0px 3px 10px gray;
+}
+
+
+nav{
+	float: right;
+	height: 100%;
+	margin-right: 6px;
+}
+.hr {
+	list-style-type: none;
+	margin: 6px 0;	
+	padding: 0;	
+	width: 600px;	
+	height: 48px;	
+	display: table;		
+}
+li.hr_1{
+	display: table-cell;
+	vertical-align: middle;
+	margin: 6px 0;		
+	font-family: Helvetica, Arial, sans-serif;	
+	font-weight: bold;
+	font-size: 14px;	
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	border-left: 1px solid #dfdfdf;
+	position: relative;
+}
+li.hr_1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;	
+}
+li.hr_1 a:hover{
+	background-color: #000;
+	color: #fff;
+}		
+li.hr_1 a:active{
+	background-color: #c9c9c9;
+	color: #fff;
+	box-shadow: 0px 0px 5px gray inset;
+}
+a, a:visited{
+	color: #000; text-decoration: none;}
+ul.dropdown{
+	list-style-type: none;
+	position: absolute; 
+	top: 100%;
+	width: 152px;	
+	background: #000;
+	text-align: left;
+	padding-left: 22px;	
+	color: #000;
+	display: none;
+}
+
+.dropdown li{
+	border-bottom: 1px solid #fff;
+	width: 120px;
+	line-height: 39px;
+	height: 39px;
+}
+li:hover .dropdown{
+	display: block;
+}
+ul.dropdown a{
+	background-color: #000;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;	
+	font-weight: normal;
+	font-size: 13px;
+	display: block;
+}	
+ul.dropdown a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.dropdown li:hover{
+	border-bottom: 1px solid #000;
+	width: 100%;	
+}
+
+
+#content{
+	width: 1020px;
+	height: 1170px;
+	margin: 19px 90px 27px;
+	padding: 35px	
+	background-color: #fff;	
+	box-shadow: 1px 1px 5px gray;
+	display: block;
+	position: relative;
+		
+}
+#slider{
+	width: 948px;
+	height: 425px;
+	top: 35px;
+	left: 35px;
+	right: 35px;
+	bottom: 710px;
+	border: 1px solid gray;
+	box-shadow: 0px 1px 5px gray;
+	position: absolute;	
+}
+form{
+	width: 948px;	
+	position: absolute;
+	left: 35px;	
+	top: 526px;
+	margin: auto;
+}
+fieldset{	
+	border: 1px solid gray;
+	border-radius: 2px;
+	padding: 6px 15px;
+	background-color: #fff;
+}
+legend{
+	color: #000;
+	font-family: Helvetica, Arial, sans-serif;	
+	font-weight: bold;
+	font-size: 13px;
+	padding: 20px;
+}
+
+#clients_bar{
+	width: 1020px;
+	height: 110px;
+	margin: 0px 90px;
+	background-color: #fff;
+}
+
+footer{
+	width: 1020px;
+	height: 350px;
+	margin: 0px 90px 38px;
+}
+#f_top{
+	width: 1020px;
+	height: 284px;
+	margin: 0 0 9px;
+	background-color: #000;
+}
+
+#f_bottom{
+	width: 1020px;
+	height: 35px;
+	margin: 0;
+	background-color: #000;
+}
